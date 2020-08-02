@@ -6,6 +6,13 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
+import List from '@material-ui/core/List';
+import ListItem  from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import InboxIcon from '@material-ui/icons/Inbox';
+import DraftsIcon from '@material-ui/icons/Drafts';
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -75,19 +82,55 @@ export default function MembershipTabs() {
         </Tabs>
       </Typography>
       <TabPanel value={value} index={0}>
-        Item One
+        <Typography component='p'>
+        A person qualifies to be an active member of the Association if that person has successfully completed a course(s) of training /study from any Accredited Australian educational institution, or successfully completed an Australia Award. This shall be subject to the approval of the committee, and payment of the prescribed fees.
+        </Typography>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+        <Typography component="p">
+        A person qualifies to be an honorary member if that person has been granted membership by the committee, in recognition of their past, present or affirmed contribution to the Association.
+        </Typography>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        <Typography component="p">
+        An Institution qualifies to be a corporate member if they are interested in the Association. This shall be subject to the approval of the committee, and payment of the prescribed fees.
+        </Typography>
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Item Four
+        <Typography component="p">
+        A person qualifies to be an honorary member if that person has been granted membership by the committee, in recognition of their past, present or affirmed contribution to the Association.
+        </Typography>
       </TabPanel>
       <TabPanel value={value} index={4}>
-        Item Five
+        <Typography component="p">
+        Every member shall pay a one off membership fee (includes annual fee for the first year) and an annual subscription fee not later than the last Friday or working day of February each subsequent year as follows:
+        </Typography>
+        <List component="nav">
+          <ListItem button>
+              <ListItemIcon>
+                  <InboxIcon />
+              </ListItemIcon>
+              <ListItemText primary="To benefit individually and collectively from the education and experience former students from Kenya have gained in Australian Universities and/or the Australian host organization." />
+          </ListItem>
+          <ListItem button>
+              <ListItemIcon>
+                  <InboxIcon />
+              </ListItemIcon>
+              <ListItemText primary="To assist the members to achieve their full potential through professional training, (capacity building and enhancing their leadership skills)." />
+          </ListItem>
+          <ListItem button>
+              <ListItemIcon>
+                  <DraftsIcon />
+              </ListItemIcon>
+              <ListItemText primary="To foster friendly relations between the citizens of the two countries. Kenya and Australia, and provide opportunities for the Australian Government and other Australian organisations to maintain links with alumni." />
+          </ListItem>
+          <ListItem button>
+              <ListItemIcon>
+                  <DraftsIcon />
+              </ListItemIcon>
+              <ListItemText primary="To assist potential students with information about the Australia Awards Scholarships, University placements and life in Australia." />
+          </ListItem>
+      </List>
       </TabPanel>
     </div>
   );
