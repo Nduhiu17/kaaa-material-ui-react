@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Paper, Grid, CardHeader, CardContent, Toolbar } from '@material-ui/core'
+import { Paper, Grid, CardHeader, CardContent, Toolbar, Typography } from '@material-ui/core'
 import List from '@material-ui/core/List';
 import ListItem  from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
@@ -17,13 +17,15 @@ function Objectives() {
                 </Toolbar>
             <Grid container justify='space-between'>
                 <Grid item xs={12} sm={5}>
-                    <Paper elevation={6}>
-                    <CardHeader 
-                            title="Our Team"/>
-                    <CardContent>
-                        <ObjectiveSlider />
-                    </CardContent>
-                    </Paper>
+                    <Typography gutterBottom>
+                        <Paper elevation={6}>
+                            <CardHeader 
+                                    title="Our Team"/>
+                            <CardContent>
+                                <ObjectiveSlider />
+                            </CardContent>
+                        </Paper>
+                    </Typography>
                 </Grid>
                 <Grid item xs={12} sm={5}>
                 <Paper elevation={6}>
