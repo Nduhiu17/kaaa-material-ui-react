@@ -6,7 +6,7 @@ import About from './components/About'
 
 function App() {
   return (
-    <Paper>
+    <Paper elevation={10}>
       <Header/>
       <MainSlider />
       <About/>
