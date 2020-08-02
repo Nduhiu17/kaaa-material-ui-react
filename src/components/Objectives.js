@@ -15,7 +15,7 @@ function Objectives() {
                 </Toolbar>
                 <Toolbar>
                 </Toolbar>
-            <Grid container spacing={2} justify='space-around'>
+            <Grid container justify='space-between'>
                 <Grid item xs={12} sm={5}>
                     <Paper elevation={6}>
                     <CardHeader 
