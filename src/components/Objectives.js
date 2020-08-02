@@ -20,9 +20,9 @@ function Objectives() {
                     <Paper elevation={6}>
                     <CardHeader 
                             // className={classes.CardHeader}
-                            title="Objectives"/>
+                            title="Our Team"/>
                     <CardContent>
-                        <img src={objImg} alt="objectives"/>
+                        <img src={objImg} alt="objectives" style={{height:385}}/>
                     </CardContent>
                     </Paper>
                 </Grid>
