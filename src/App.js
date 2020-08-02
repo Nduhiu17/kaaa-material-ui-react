@@ -3,6 +3,7 @@ import { Paper } from '@material-ui/core';
 import Header from './components/Header'
 import MainSlider from './components/main-slider/MainSlider'
 import About from './components/About'
+import Objectives from './components/Objectives'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <MainSlider />
       <About/>
+      <Objectives />
     </Paper>
   );
 }
