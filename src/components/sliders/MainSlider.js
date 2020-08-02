@@ -53,7 +53,7 @@ export default function MainSlider(props)
             </Carousel>
            <Typography variant={"h4"} gutterBottom align="center">Kenyan Australian Alumni Association
             </Typography>
-            <Typography paragraph variant={"h6"} style={{fontSize:16}}  align="center">We are a association affiliated with the Australia. The members are alumni of various australian university through scholarship or privately funded. Our main aim is to intergrate the alumni that have graduated in Australia and help make good networks.
+            <Typography paragraph style={{fontSize:16}}  align="center">We are a association affiliated with the Australia. The members are alumni of various australian university through scholarship or privately funded. Our main aim is to intergrate the alumni that have graduated in Australia and help make good networks.
             </Typography>
            </Paper>
         </Fragment>
