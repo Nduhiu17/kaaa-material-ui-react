@@ -6,6 +6,7 @@ import About from './components/About'
 import Objectives from './components/Objectives'
 import EventsAndMembership from './components/EventsAndMembership'
 import Main from './components/gallery/Main'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Objectives />
       <EventsAndMembership />
       <Main />
+      <Footer/>
     </Paper>
   );
 }
