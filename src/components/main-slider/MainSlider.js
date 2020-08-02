@@ -49,10 +49,12 @@ export default function MainSlider(props)
                     items.map( (item, i) => <Item key={i} item={item} /> )
                 }
             </Carousel>
-            <Typography variant={"h3"}>Kenyan Australian Alumni Association
+           <Paper>
+           <Typography variant={"h3"}>Kenyan Australian Alumni Association
             </Typography>
             <p variant={"h6"}>We are a association affiliated with the Australia. The members are alumni of various australian university through scholarship or privately funded. Our main aim is to intergrate the alumni that have graduated in Australia and help make good networks.
             </p>
+           </Paper>
         </Fragment>
 
     )
