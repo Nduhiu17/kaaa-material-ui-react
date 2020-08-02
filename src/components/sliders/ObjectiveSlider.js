@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React,{Fragment} from 'react';
 import Carousel from 'react-material-ui-carousel'
-import {CardHeader, Typography} from '@material-ui/core'
+import { Typography } from '@material-ui/core'
 
 //images
 import imgOne from '../../assets/our-team/1.jpeg'
@@ -56,7 +56,7 @@ function Item(props)
 {
     return (
             <div className="image-wrapper-2">
-                <Typography variant="h6">
+                <Typography component="p">
                 {props.item.title}
                 </Typography>
                 {props.item.image}

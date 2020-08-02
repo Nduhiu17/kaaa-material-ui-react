@@ -4,6 +4,7 @@ import Header from './components/Header'
 import MainSlider from './components/sliders/MainSlider'
 import About from './components/About'
 import Objectives from './components/Objectives'
+import EventsAndMembership from './components/EventsAndMembership'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <MainSlider />
       <About/>
       <Objectives />
+      <EventsAndMembership />
     </Paper>
   );
 }
