@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import { Paper, Grid, CardHeader, CardContent, Toolbar, Typography } from '@material-ui/core'
 import ActivitiesSlider from './sliders/ActivitiesSlider'
+import MembershipTabs from '../components/MembershipTabs'
 
 function EventsAndMembership() {
     return (
@@ -16,7 +17,7 @@ function EventsAndMembership() {
                         // className={classes.CardHeader}
                         title="Membership criteria"/>
                         <CardContent>
-                     
+                            <MembershipTabs />
                         </CardContent>
                     </Paper>
                 </Grid>
