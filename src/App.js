@@ -5,6 +5,7 @@ import MainSlider from './components/sliders/MainSlider'
 import About from './components/About'
 import Objectives from './components/Objectives'
 import EventsAndMembership from './components/EventsAndMembership'
+import Main from './components/gallery/Main'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Objectives />
       <EventsAndMembership />
+      <Main />
     </Paper>
   );
 }
