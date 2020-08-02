@@ -6,7 +6,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/Inbox';
 import DraftsIcon from '@material-ui/icons/Drafts';
-import objImg from '../assets/img/image01.jpg'
+import ObjectiveSlider from './sliders/ObjectiveSlider'
 
 function Objectives() {
     return (
@@ -19,10 +19,9 @@ function Objectives() {
                 <Grid item xs={12} sm={5}>
                     <Paper elevation={6}>
                     <CardHeader 
-                            // className={classes.CardHeader}
                             title="Our Team"/>
                     <CardContent>
-                        <img src={objImg} alt="objectives" style={{height:385}}/>
+                        <ObjectiveSlider />
                     </CardContent>
                     </Paper>
                 </Grid>

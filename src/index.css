@@ -9,6 +9,18 @@ body {
   margin-top: 8px;
 }
 
+.image-wrapper-2{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  margin-top: 8px;
+}
+
+.image-wrapper-2 img{
+    max-height: 320px;
+}
+
+
 img {
   max-width: 100%;
   height: auto;
