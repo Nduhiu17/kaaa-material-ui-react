@@ -26,7 +26,7 @@ export default withStyles(styles)(
                         <Paper elevation={6}>
                             <CardHeader 
                             className={classes.CardHeader}
-                            title="Our Mission"/>
+                            title="Membership"/>
                             <CardContent>
                             MEMBERSHIP is open to all Australia Awards Scholarships alumni who wish to join the network, as well as those whose study in Australia was either privately funded or funded through a home government and other scholarships, and those who have studied in an accredited Australian educational institution and who support the objectives of the Association
                             </CardContent>
@@ -34,7 +34,7 @@ export default withStyles(styles)(
                             className={classes.CardHeader}
                             title="Our Mission"/>
                             <CardContent>
-                            MEMBERSHIP is open to all Australia Awards Scholarships alumni who wish to join the network, as well as those whose study in Australia was either privately funded or funded through a home government and other scholarships, and those who have studied in an accredited Australian educational institution and who support the objectives of the Association
+                            To enhance and champion comprehensive expertise and knowledge sharing through our innovative capacity building, collaboration and networking
                             </CardContent>
                         </Paper>
                     </Grid>
@@ -42,9 +42,9 @@ export default withStyles(styles)(
                         <Paper elevation={6}>
                             <CardHeader 
                             className={classes.CardHeader}
-                            title="Membership"/>
+                            title="Our Vision"/>
                             <CardContent>
-                            MEMBERSHIP is open to all Australia Awards Scholarships alumni who wish to join the network, as well as those whose study in Australia was either privately funded or funded through a home government and other scholarships, and those who have studied in an accredited Australian educational institution and who support the objectives of the Association
+                            A world class Australian Alumni Association that contributes to sustainable development of the Kenyan Society
                             </CardContent>
                         </Paper>
                     </Grid>
