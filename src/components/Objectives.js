@@ -12,7 +12,7 @@ function Objectives() {
         <Fragment>
                <Toolbar>
                 </Toolbar>
-            <Grid container justify='space-between'>
+            <Grid container justify='space-between' spacing={2}>
                 <Grid item xs={12} sm={5}>
                     <Typography gutterBottom>
                         <Paper elevation={6}>
