@@ -92,12 +92,12 @@ export default function Header(props) {
         <Toolbar className={classes.nav}>
           <Typography variant="h6" className={classes.letfNav}>
               <img src={Logo} alt="kaa" style={{ height: 60, width: 60 }} />
-              <Typography className={classes.title}>Home</Typography>
+              <Typography className={classes.title}><a href='#home'>Home</a></Typography>
           </Typography>
           <Typography>
-            <Button color="inherit">About Us</Button>
-            <Button color="inherit">Membership</Button>
-            <Button color="inherit">Gallery</Button>
+           <a href='#about'><Button color="inherit">About Us</Button></a> 
+           <a href='#membership'><Button color="inherit">Membership</Button></a> 
+           <a href='#gallery'><Button color="inherit">Gallery</Button></a> 
           </Typography>
         </Toolbar>
       </AppBar>

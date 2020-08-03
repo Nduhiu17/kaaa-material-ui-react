@@ -17,7 +17,7 @@ const styles = (theme) => ({
 export default withStyles(styles)( 
     ({classes}) => (
         <Fragment>
-            <Toolbar>
+            <Toolbar id="about">
             </Toolbar>
             <Toolbar>
             </Toolbar>

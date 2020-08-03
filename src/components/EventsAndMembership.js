@@ -6,7 +6,7 @@ import MembershipTabs from '../components/MembershipTabs'
 function EventsAndMembership() {
     return (
         <Fragment>
-               <Toolbar>
+               <Toolbar id='membership'>
                 </Toolbar>
                 <Toolbar>
                 </Toolbar>

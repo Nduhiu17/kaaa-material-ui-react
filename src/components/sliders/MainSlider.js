@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React,{Fragment} from 'react';
 import Carousel from 'react-material-ui-carousel'
-import {Paper, Typography} from '@material-ui/core'
+import {Paper, Typography,Toolbar} from '@material-ui/core'
 
 //images
 import imgOne from '../../assets/slider/1.jpg'
@@ -64,7 +64,7 @@ export default function MainSlider(props)
 function Item(props)
 {
     return (
-            <div className="image-wrapper">
+            <div className="image-wrapper" id='home'>
                 {props.item.image}
             </div>
     )

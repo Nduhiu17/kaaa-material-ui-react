@@ -5,7 +5,7 @@ import GalleryTabs from './GalleryTabs'
 function Main() {
     return (
       <Fragment>
-          <Toolbar>
+          <Toolbar id='gallery'>
           </Toolbar>
           <Toolbar>
           </Toolbar>
