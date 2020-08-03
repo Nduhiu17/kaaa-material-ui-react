@@ -30,8 +30,6 @@ export default function Footer() {
 
   return (
     <div className={classes.root}>
-        <Toolbar>
-        </Toolbar>
       <AppBar position="static" color="transparent" className={classes.footer}>
         <Toolbar>
           <Typography component="span">
