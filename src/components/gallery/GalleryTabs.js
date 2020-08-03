@@ -11,6 +11,7 @@ import Wiln from './Wiln'
 import OneHeart from './OneHeart'
 import AngelCenter from './AngelCenter'
 import Covid from './Covid'
+import { isWidthDown } from '@material-ui/core';
 
 
 
@@ -49,10 +50,14 @@ function a11yProps(index) {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
-    width: '100%',
+    // flexGrow: 1,
+    width:'100%',
     backgroundColor: theme.palette.background.paper,
   },
+ Tabs:{
+      display:'flex',
+      justifyContent:'center'
+  }
 }));
 
 export default function GalleryTabs() {
@@ -64,19 +69,18 @@ export default function GalleryTabs() {
   };
 
   return (
-    <div className={classes.root}>
-      <Typography title="" justify="center">
+    <Typography className={classes.root}>
+      <Typography title="">
       Gallery
       </Typography>
-      <Typography position="static" color="default">
+      <Typography position="static" color="default" className={classes.Tabs}>
         <Tabs
           value={value}
           onChange={handleChange}
-          indicatorColor="primary"
+          indicatorColor="secondary"
           textColor="primary"
           variant="scrollable"
           scrollButtons="auto"
-          aria-label="scrollable auto tabs example"
         >
           <Tab label="Karura Tree Planting" {...a11yProps(0)} />
           <Tab label="Social Dinner" {...a11yProps(1)} />
@@ -116,6 +120,6 @@ export default function GalleryTabs() {
             <Covid />
         </Typography>
       </TabPanel>
-    </div>
+    </Typography>
   );
 }

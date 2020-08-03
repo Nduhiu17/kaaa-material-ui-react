@@ -11,9 +11,9 @@ function Main() {
             </Toolbar>
           <Paper elevation={6}>
               <Grid container>
-                    <Grid item sm={12} md={12}>
-                        <GalleryTabs />
-                    </Grid>
+                  <Grid item sm={12} md={12}>
+                      <GalleryTabs />
+                  </Grid>
               </Grid>
           </Paper>
       </Fragment>
