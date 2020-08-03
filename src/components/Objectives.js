@@ -12,7 +12,7 @@ function Objectives() {
         <Fragment>
                <Toolbar>
                 </Toolbar>
-            <Grid container justify='space-between' spacing={2}>
+            <Grid container justify='space-between'>
                 <Grid item xs={12} sm={5}>
                     <Typography gutterBottom>
                         <Paper elevation={6}>
@@ -25,7 +25,7 @@ function Objectives() {
                         </Paper>
                     </Typography>
                 </Grid>
-                <Grid item xs={12} sm={5}>
+                <Grid item xs={12} sm={6}>
                 <Paper elevation={6}>
                             <CardHeader 
                             title="Objectives"

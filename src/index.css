@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family: 'Roboto', sans-serif
+  font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -38,7 +38,7 @@ h6 {
 }
 
 .image-wrapper-2 img {
-  max-height: 320px;
+  max-height: 280px;
 }
 
 img {
@@ -51,5 +51,9 @@ img {
   #nav{
       display: flex;
       flex-direction: column;
+  }
+
+  .image-wrapper {
+    height: 400px;
   }
 }
