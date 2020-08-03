@@ -10,7 +10,7 @@ import DraftsIcon from '@material-ui/icons/Drafts';
 
 const styles = (theme) => ({
   CardHeader: {
-   
+   color:'#1C6F47'
   },
 });
 

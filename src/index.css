@@ -1,17 +1,28 @@
 body {
-  font-family: Roboto;
   overflow-x: hidden;
+  font-family: 'Roboto', sans-serif
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-a{
+a {
   text-decoration: none;
-  color: inherit;
+  color: #1c6f47;
 }
-.image-wrapper{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1c6f47;
+  font-family: 'Roboto', sans-serif
+}
+
+.image-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -19,19 +30,26 @@ a{
   margin-top: 8px;
 }
 
-.image-wrapper-2{
+.image-wrapper-2 {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-around;
   margin-top: 8px;
 }
 
-.image-wrapper-2 img{
-    max-height: 320px;
+.image-wrapper-2 img {
+  max-height: 320px;
 }
-
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+
+@media (max-width:780px) { 
+  #nav{
+      display: flex;
+      flex-direction: column;
+  }
 }

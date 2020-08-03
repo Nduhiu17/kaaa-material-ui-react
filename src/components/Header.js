@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   nav: {
     display: "flex",
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "space-between"
   },
   letfNav:{
     display:'flex',
@@ -89,15 +89,15 @@ export default function Header(props) {
     <React.Fragment>
       <CssBaseline />
       <AppBar color="inherit">
-        <Toolbar className={classes.nav}>
+        <Toolbar className={classes.nav} id='nav'>
           <Typography variant="h6" className={classes.letfNav}>
               <img src={Logo} alt="kaa" style={{ height: 60, width: 60 }} />
               <Typography className={classes.title}><a href='#home'>Home</a></Typography>
           </Typography>
           <Typography>
-           <a href='#about'><Button color="inherit">About Us</Button></a> 
-           <a href='#membership'><Button color="inherit">Membership</Button></a> 
-           <a href='#gallery'><Button color="inherit">Gallery</Button></a> 
+           <a href='#about'><Button style={{color:'#1C6F47'}}>About Us</Button></a> 
+           <a href='#membership'><Button style={{color:'#1C6F47'}}>Membership</Button></a> 
+           <a href='#gallery'><Button style={{color:'#1C6F47'}}>Gallery</Button></a> 
           </Typography>
         </Toolbar>
       </AppBar>

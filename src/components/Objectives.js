@@ -20,7 +20,8 @@ function Objectives() {
                     <Typography gutterBottom>
                         <Paper elevation={6}>
                             <CardHeader 
-                                    title="Our Team"/>
+                                    title="Our Team"
+                                    style={{color:'#1C6F47'}}/>
                             <CardContent>
                                 <ObjectiveSlider />
                             </CardContent>
@@ -30,8 +31,8 @@ function Objectives() {
                 <Grid item xs={12} sm={5}>
                 <Paper elevation={6}>
                             <CardHeader 
-                            // className={classes.CardHeader}
-                            title="Objectives"/>
+                            title="Objectives"
+                            style={{color:'#1C6F47'}}/>
                             <CardContent>
                                 <List component="nav">
                                     <ListItem button>

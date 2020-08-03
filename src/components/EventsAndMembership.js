@@ -14,8 +14,8 @@ function EventsAndMembership() {
                 <Grid item xs={12} sm={8}>
                     <Paper elevation={6}>
                         <CardHeader 
-                        // className={classes.CardHeader}
-                        title="Membership criteria"/>
+                        title="Membership criteria"
+                        style={{color:'#1c6f47'}}/>
                         <CardContent>
                             <MembershipTabs />
                         </CardContent>
@@ -25,7 +25,8 @@ function EventsAndMembership() {
                     <Typography gutterBottom>
                         <Paper elevation={6}>
                             <CardHeader 
-                                    title="Our Activies"/>
+                                    title="Our Activies"
+                                    style={{color:'#1c6f47'}}/>
                             <CardContent>
                                 <ActivitiesSlider />
                             </CardContent>
