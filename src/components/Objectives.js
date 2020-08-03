@@ -18,18 +18,18 @@ function Objectives() {
                         <Paper elevation={6}>
                             <CardHeader 
                                     title="Our Team"
-                                    style={{color:'#1C6F47'}}/>
+                                    style={{color:'#003399'}}/>
                             <CardContent>
                                 <ObjectiveSlider />
                             </CardContent>
                         </Paper>
                     </Typography>
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid item xs={12} sm={5}>
                 <Paper elevation={6}>
                             <CardHeader 
                             title="Objectives"
-                            style={{color:'#1C6F47'}}/>
+                            style={{color:'#003399'}}/>
                             <CardContent>
                                 <List component="nav">
                                     <ListItem button>

@@ -9,7 +9,7 @@ import CheckIcon from '@material-ui/icons/Check';
 
 const styles = (theme) => ({
   CardHeader: {
-   color:'#1C6F47'
+   color:'#003399'
   },
 });
 

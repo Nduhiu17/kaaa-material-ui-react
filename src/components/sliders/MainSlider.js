@@ -44,7 +44,7 @@ export default function MainSlider(props)
  
     return (
         <Fragment>
-           <Paper elevation={6}>
+           <Paper>
 
             <Carousel>
                 {

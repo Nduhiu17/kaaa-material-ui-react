@@ -19,6 +19,7 @@ import Main from "./gallery/Main";
 import Footer from "./Footer";
 import Logo from "../assets/img/KAAA_Colour Logo.jpg";
 import Button from "@material-ui/core/Button";
+import Partners from '../components/Partners'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -88,16 +89,16 @@ export default function Header(props) {
   return (
     <React.Fragment>
       <CssBaseline />
-      <AppBar color="inherit">
+      <AppBar color="#336600">
         <Toolbar className={classes.nav} id='nav'>
           <Typography variant="h6" className={classes.letfNav}>
               <img src={Logo} alt="kaa" style={{ height: 60, width: 60 }} />
               <Typography className={classes.title}><a href='#home'>Home</a></Typography>
           </Typography>
           <Typography>
-           <a href='#about'><Button style={{color:'#1C6F47'}}>About Us</Button></a> 
-           <a href='#membership'><Button style={{color:'#1C6F47'}}>Membership</Button></a> 
-           <a href='#gallery'><Button style={{color:'#1C6F47'}}>Gallery</Button></a> 
+           <a href='#about'><Button style={{color:'#003399'}}>About Us</Button></a> 
+           <a href='#membership'><Button style={{color:'#003399'}}>Membership</Button></a> 
+           <a href='#gallery'><Button style={{color:'#003399'}}>Gallery</Button></a> 
           </Typography>
         </Toolbar>
       </AppBar>
@@ -108,6 +109,7 @@ export default function Header(props) {
         <Objectives />
         <EventsAndMembership />
         <Main />
+        <Partners />
         <Footer />
       </Box>
       <ScrollTop {...props}>

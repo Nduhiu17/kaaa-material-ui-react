@@ -9,7 +9,7 @@ html {
 
 a {
   text-decoration: none;
-  color: #1c6f47;
+  color: #003399;
 }
 
 h1,
@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1c6f47;
+  color: #003399;
   font-family: 'Roboto', sans-serif
 }
 
@@ -44,6 +44,12 @@ h6 {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.Carousel-buttonHidden-16 {
+  opacity: 1 !important; 
+  background-color: #336600 !important;
+  /* background-color: #C0C0C0 !important; */
 }
 
 
