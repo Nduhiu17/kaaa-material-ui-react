@@ -70,7 +70,7 @@ export default function GalleryTabs() {
 
   return (
     <Typography className={classes.root}>
-      <Typography title="">
+      <Typography variant='h6' align='center'>
       Gallery
       </Typography>
       <Typography position="static" color="default" className={classes.Tabs}>
