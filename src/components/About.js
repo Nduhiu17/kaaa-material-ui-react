@@ -18,8 +18,6 @@ export default withStyles(styles)(
         <Fragment>
             <Toolbar id="about">
             </Toolbar>
-            <Toolbar>
-            </Toolbar>
                 <Grid container spacing={2} alignContent='center' alignItems='center'>
                     <Grid item xs={12} sm={4}>
                         <Paper elevation={6}>

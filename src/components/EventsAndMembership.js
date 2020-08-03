@@ -8,8 +8,6 @@ function EventsAndMembership() {
         <Fragment>
                <Toolbar id='membership'>
                 </Toolbar>
-                <Toolbar>
-                </Toolbar>
             <Grid container justify='space-between' spacing={2}>
                 <Grid item xs={12} sm={8}>
                     <Paper elevation={6}>

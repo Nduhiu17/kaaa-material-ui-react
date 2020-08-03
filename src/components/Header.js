@@ -111,7 +111,7 @@ export default function Header(props) {
         <Footer />
       </Box>
       <ScrollTop {...props}>
-        <Fab color="secondary" size="small" aria-label="scroll back to top">
+        <Fab size="small">
           <KeyboardArrowUpIcon />
         </Fab>
       </ScrollTop>

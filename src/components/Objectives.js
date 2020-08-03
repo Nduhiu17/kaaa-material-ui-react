@@ -12,8 +12,6 @@ function Objectives() {
         <Fragment>
                <Toolbar>
                 </Toolbar>
-                <Toolbar>
-                </Toolbar>
             <Grid container justify='space-between'>
                 <Grid item xs={12} sm={5}>
                     <Typography gutterBottom>

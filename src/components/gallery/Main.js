@@ -7,8 +7,6 @@ function Main() {
       <Fragment>
           <Toolbar id='gallery'>
           </Toolbar>
-          <Toolbar>
-          </Toolbar>
           <Paper elevation={6}>
               <Grid container>
                   <Grid item xs={12} sm={12} md={12}>
