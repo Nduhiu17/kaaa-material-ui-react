@@ -69,13 +69,12 @@ export default function Header(props) {
   return (
     <React.Fragment>
       <CssBaseline />
-      <AppBar>
+      <AppBar color='inherit'>
         <Toolbar>
           <Typography variant="h6">Scroll to see button</Typography>
         </Toolbar>
       </AppBar>
       <Toolbar id="back-to-top-anchor" />
-      {/* <Container> */}
         <Box my={2}>
           <MainSlider />
           <About/>
@@ -84,7 +83,6 @@ export default function Header(props) {
           <Main />
           <Footer/>
         </Box>
-      {/* </Container> */}
       <ScrollTop {...props}>
         <Fab color="secondary" size="small" aria-label="scroll back to top">
           <KeyboardArrowUpIcon />
