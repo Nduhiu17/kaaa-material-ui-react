@@ -4,8 +4,7 @@ import List from '@material-ui/core/List';
 import ListItem  from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/Inbox';
-import DraftsIcon from '@material-ui/icons/Drafts';
+import CheckIcon from '@material-ui/icons/Check';
 import ObjectiveSlider from './sliders/ObjectiveSlider'
 
 function Objectives() {
@@ -37,25 +36,25 @@ function Objectives() {
                                 <List component="nav">
                                     <ListItem button>
                                         <ListItemIcon>
-                                            <InboxIcon />
+                                            <CheckIcon />
                                         </ListItemIcon>
                                         <ListItemText primary="To benefit individually and collectively from the education and experience former students from Kenya have gained in Australian Universities and/or the Australian host organization." />
                                     </ListItem>
                                     <ListItem button>
                                         <ListItemIcon>
-                                            <InboxIcon />
+                                            <CheckIcon />
                                         </ListItemIcon>
                                         <ListItemText primary="To assist the members to achieve their full potential through professional training, (capacity building and enhancing their leadership skills)." />
                                     </ListItem>
                                     <ListItem button>
                                         <ListItemIcon>
-                                            <DraftsIcon />
+                                            <CheckIcon />
                                         </ListItemIcon>
                                         <ListItemText primary="To foster friendly relations between the citizens of the two countries. Kenya and Australia, and provide opportunities for the Australian Government and other Australian organisations to maintain links with alumni." />
                                     </ListItem>
                                     <ListItem button>
                                         <ListItemIcon>
-                                            <DraftsIcon />
+                                            <CheckIcon />
                                         </ListItemIcon>
                                         <ListItemText primary="To assist potential students with information about the Australia Awards Scholarships, University placements and life in Australia." />
                                     </ListItem>

@@ -5,8 +5,7 @@ import List from '@material-ui/core/List';
 import ListItem  from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/Inbox';
-import DraftsIcon from '@material-ui/icons/Drafts';
+import CheckIcon from '@material-ui/icons/Check';
 
 const styles = (theme) => ({
   CardHeader: {
@@ -57,19 +56,19 @@ export default withStyles(styles)(
                             <List component="nav">
                                 <ListItem button>
                                 <ListItemIcon>
-                                    <InboxIcon />
+                                    <CheckIcon />
                                 </ListItemIcon>
                                 <ListItemText primary=" We maintain and propagate excellence, high level of knowledge, respective skills and standards as we provide respective services to our communities." />
                                 </ListItem>
                                 <ListItem button>
                                 <ListItemIcon>
-                                    <InboxIcon />
+                                    <CheckIcon />
                                 </ListItemIcon>
                                 <ListItemText primary="We show impartiality, transparency, accountability and honesty whilst upholding the highest ethical standards in any service provision." />
                                 </ListItem>
                                 <ListItem button>
                                 <ListItemIcon>
-                                    <DraftsIcon />
+                                    <CheckIcon />
                                 </ListItemIcon>
                                 <ListItemText primary=" We contribute exhaustively to the activities of the team with ease to address shared concerns through common effort." />
                                 </ListItem>
